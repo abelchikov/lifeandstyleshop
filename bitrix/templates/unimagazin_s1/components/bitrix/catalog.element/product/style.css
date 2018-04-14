@@ -1,0 +1,1155 @@
+.item {}
+
+.item .row {
+	display: block;
+	overflow: hidden;
+}
+
+.item .title {
+	font-size: 21px;
+	color: #444648;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+/*Товар дня*/
+.item .product-of-day {
+	position: relative;
+	display: block;
+	background: #fed000;
+	font-size: 0px;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.item .product-of-day .valign {
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	height: 100%;
+	width: 0px;
+}
+
+.item .product-of-day .day {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	text-align: center;
+	color: #202020;
+	font-weight: bold;
+}
+
+.item .product-of-day .day .number {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.item .product-of-day .day .month {
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+
+.item .product-of-day .timer > .title,
+.item .product-of-day > .title {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	color: #202020;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.item .product-of-day > .title {
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.item .product-of-day .timer > .title {
+	margin-right: 20px;
+}
+
+.item .product-of-day .timer {
+	position: absolute;
+	padding: 15px;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.item .product-of-day .timer .countdown {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.item .product-of-day .timer .countdown .pd_td {
+	background: #fff;
+	font-size: 16px;
+	color: #000;
+	padding: 7px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.item .product-of-day .timer .countdown .pd_num_separator {
+	font-size: 16px;
+	color: #000;
+	padding: 5px;
+	font-weight: bold;
+}
+
+/*Слайдер картинок*/
+.item .image-slider {
+	position: relative;
+	float: left;
+	width: 450px;
+}
+
+/*Главная картинка*/
+.item .image-slider > .image-box {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding-top: 100%;
+	text-align: center;
+	font-size: 0px;
+	white-space: nowrap;
+}
+
+.item .image-slider > .image-box .wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.item .image-slider > .image-box .wrapper .marks {
+	display: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.item .image-slider > .image-box .wrapper .valign {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.item .image-slider > .image-box .wrapper .slider-images,
+.item .image-slider > .image-box .wrapper .slider-images .image {
+	width: 100%;
+	height: 100%;
+}
+
+.item .image-slider > .image-box .wrapper .slider-images .image {
+	display: none;
+	white-space: nowrap;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.item .image-slider > .image-box .wrapper .slider-images .image.zoom:hover {
+	border: 1px solid #e7e7e7;
+}
+
+.item .image-slider > .image-box .wrapper .slider-images .image.noeffect {
+	cursor: default;
+}
+
+.item .image-slider > .image-box .wrapper .slider-images .image:first-child {
+	display: block;
+}
+
+.item .image-slider > .image-box .wrapper .slider-images img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*Список картинок*/
+.item .image-slider > .list {
+	position: relative;
+	display: block;
+    margin-top: 20px;
+}
+
+/*Кнопки списка*/
+.item .image-slider > .list .buttons {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.item .image-slider > .list .buttons .valign {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.item .image-slider > .list .buttons .wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+}
+
+.item .image-slider > .list .buttons .button {
+	position:absolute;
+}.item .image-slider > .list .buttons #left.button {
+	left: 0px;
+}.item .image-slider > .list .buttons #right.button {
+	right: 0px;
+}
+
+/*Сами картинки*/
+.item .image-slider > .list .items {
+	margin-left: 30px;
+	margin-right: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 0px;
+}
+
+.item .image-slider > .list .image {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	padding-top: 25%;
+	white-space: nowrap;
+	font-size: 0px;
+	text-align: center;
+	cursor: pointer;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.item .image-slider > .list .image .wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.item .image-slider > .list .image .wrapper > div {
+	position: relative;
+	padding: 4px;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.item .image-slider > .list .image .wrapper > div > div {
+	height: 100%;
+	padding: 4px;
+	border: 3px solid transparent;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	transition-property: border-color;
+	transition: 0.3s;
+}
+.item .image-slider > .list .image.selected .wrapper > div > div,
+.item .image-slider > .list .image:hover .wrapper > div > div {
+	border: 3px solid #1a58d7;
+}
+
+.item .image-slider > .list .image .wrapper .valign {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.item .image-slider > .list .image .wrapper img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.item .information {
+	position: relative;
+	margin-left: 500px;
+}
+.item.with-menu .information {
+    margin-left: 250px;
+}
+.item.with-menu .information.with-menu {
+    margin-left: 0px;
+}
+
+.item .prices {
+	width: 100%;
+}
+
+.item .prop_sku {
+	margin-bottom: 5px;
+	overflow: hidden;
+	padding: 0;
+}
+.item dt {
+	clear: both;
+	float: left;
+	font-weight: bold;
+}
+.item dd {
+	float: left;
+	margin: 0 5px;
+}
+
+.item .prices .sku-adaptiv-title {
+	display: none;
+}
+
+.item .prices tr {
+	height: 85px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.item .prices .header {
+	color: #8f8f8f;
+	text-align: center;
+	height: 50px;
+}
+
+.item .prices .header td {
+	color: inherit;
+	text-align: inherit;
+}
+
+.item .prices .rows {
+	color: #636363;
+	text-align: center;
+}
+
+.item .prices .rows td {
+	color: inherit;
+	text-align: inherit;
+}
+
+.item .prices .image {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	font-size: 0px;
+	white-space: nowrap;
+}
+
+.item .prices .image .valign {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.item .prices .image img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*Картинки с меню*/
+.item.with-menu .image-slider {
+    width: 200px;
+}
+.item.with-menu .image-slider > .list .image {
+    width: 50%;
+    padding-top: 50%;
+}
+
+/* Бренд */
+.item .information .brand {
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 0px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0px;
+    z-index: 1;
+}
+
+.item .information .brand img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Артикуль */
+.item .information .article {
+	position: relative;
+	float: left;
+	margin-right: 32px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #a7a7a7;
+}
+
+/* В наличии/ не в наличии*/
+.item .prices .state,
+.item .information .state {
+	position: relative;
+	float: left;
+	font-size: 11px;
+	line-height: 18px;
+	color: #474747;
+}
+.item .prices .state.available,
+.item .information .state.available {
+	
+}
+.item .prices .state.unavailable,
+.item .information .state.unavailable {
+	
+}
+
+.item .prices .state {
+	display: inline-block;
+	float: none;
+}
+
+.item .prices .state .icon,
+.item .information .state .icon {
+	position: relative;
+	display: block;
+	float: left;
+	margin-top: 4px;
+	margin-right: 6px;
+	width: 14px;
+	height: 10px;
+	background: url('images/state.png');
+}
+.item .prices .state.available .icon,
+.item .information .state.available .icon {
+	background-position: top;
+}
+.item .prices .state.unavailable .icon,
+.item .information .state.unavailable .icon {
+	background-position: bottom;
+}
+
+/*Цена*/
+.item .information .price {
+	position: relative;
+}
+
+.item .information .price .current {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+	font-size: 30px;
+	line-height: 36px;
+	color: #252525;
+	font-weight: bold;
+}
+
+.item .information .price .old {
+    display: inline-block;
+    vertical-align: middle;
+	font-size: 16px;
+	line-height: 36px;
+	color: #c93332;
+	text-decoration: line-through;
+}
+
+/* Сторона заказа */
+.item .information .order {
+	position: relative;
+	font-size: 0px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.item .information .order .buy-block {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.item .information .order .buy-block > div,
+.item .information .order > div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.item .information .order .valign {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.item .information .order .buy-block {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0px;
+}
+
+/*Контрол количества*/
+.item .prices .count,
+.item .information .order .count {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0px;
+}
+.item .information .order .count {
+	height: 40px;
+}
+.item .information .order .buy-block .count,
+.item .prices .count {
+	height: 36px;
+}
+/*--------------------------------*/
+.item .prices .count input[type=text],
+.item .information .order .count input[type=text] {
+	border: 1px solid #d2d2d2;
+	color: #707070;
+	font-size: 14px;
+	box-sizing: border-box;
+	width: 50px;
+	padding: 0px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.item .information .order .count input[type=text] {
+	line-height: 36px;
+    height: 38px;
+}
+.item .information .order .buy-block .count input[type=text],
+.item .prices .count input[type=text] {
+	line-height: 34px;
+    height: 36px;
+}
+/*--------------------------------*/
+.item .prices .count button,
+.item .information .order .count button {
+	border: 1px solid #d2d2d2;
+	font-size: 14px;
+	vertical-align: top;
+	width: 35px;
+	color: #707070;
+	background: transparent;
+	padding: 0px;
+}
+.item .information .order .count button {
+	line-height: 36px;
+    height: 38px;
+}
+.item .information .order .buy-block .count button,
+.item .prices .count button {
+	line-height: 34px;
+    height: 36px;
+}
+.item .prices .count button:hover,
+.item .information .order .count button:hover {
+	background:  #d2d2d2;
+}
+.item .prices .count button:focus,
+.item .information .order .count button:focus {
+	outline: none;
+}
+.item .prices .count button#increase,
+.item .information .order .count button#increase {
+	border-left: none;
+	border-radius: 0px 3px 3px 0px;
+}
+.item .prices .count button#decrease,
+.item .information .order .count button#decrease {
+	border-right: none;
+	border-radius: 3px 0px 0px 3px;
+}
+/**Контрол количества**/
+
+.item .information .order > .buy,
+.item .information .order > .buy-block > .buy {
+	display: inline-block;
+	vertical-align: middle;
+	height: 40px;
+}
+
+.item .information .order > .buy-block > .buy {
+	height: 36px;
+}
+
+/*Кнопки*/
+.item .information .order .buy-block > .buy > .one-click-buy
+.item .information .order .buy-block > .buy > .buy,
+.item .information .order .buy > .one-click-buy,
+.item .information .order .buy > .buy,
+.item .prices .buy > .one-click-buy,
+.item .prices .buy > .buy {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 13px 50px;
+}
+
+.item .information .order .buy-block > .buy > .buy,
+.item .information .order .buy > .buy,
+.item .prices .buy > .buy {
+	width: 170px;
+}
+
+.item .prices .buy > .one-click-buy,
+.item .information .order .buy > .one-click-buy {
+	background: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border: 1px solid #d2d2d2;
+	color: #707070;
+}
+.item .prices .buy > .one-click-buy:hover,
+.item .information .order .buy > .one-click-buy:hover {
+	background: #d2d2d2;
+}
+
+.item .prices .buy > .one-click-buy {
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.item .prices .buy > .buy {
+	padding: 0px;
+	padding-top: 11px;
+	padding-bottom: 11px; 
+}
+
+.item .prices .buy > .one-click-buy,
+.item .prices .buy > .buy {
+	height: 36px;
+}
+
+.item .information .order .buy-block > .buy > .one-click-buy {
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+.item .information .order .buy-block > .buy > .buy {
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+/*---------------------------------*/
+.item .information .order .min-buttons {
+	display: inline-block;
+	vertical-align: middle;
+}
+/*---------------------------------*/
+.item .prices .min-button,
+.item .information .order .min-buttons .min-button {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0px;
+	margin-left: 8px;
+}
+.item .information .order .min-buttons .min-button:first-child {
+	margin-left: 0px;
+}
+
+/* Описание */
+.item .description,
+.item .description {
+	color: #8b8b8b;
+}
+
+/* Сокращенные характеристики */
+.item .information .properties {
+	color: #707070;
+	font-size: 13px;
+	line-height: 20px;
+	overflow: hidden;	
+}
+
+.item .information .properties .property:before {
+	content: '';
+	position: absolute;
+	display: block;
+	background: #1a58d7;
+	width: 3px;
+	height: 3px;
+	border-radius: 1.5px;
+	left: 0px;
+	top: 9px;
+}
+
+.item .information .properties .property {
+	position: relative;
+	float: left;
+	width: 50%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 13px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding-left: 10px;
+}
+
+.item .information .properties .all-properties {
+	float: left;
+	width: 100%;
+	margin-top: 8px;
+	text-decoration: underline;
+	cursor: pointer;
+	list-style: none;
+	padding-left: 10px;
+}
+
+/* Расширенные проперти */
+.offers {
+	
+}
+
+.offers .offer {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.offers .offer:first-child {
+	margin-top: 0px;
+}
+
+.offers .offer .header {
+	line-height: 39px;
+	float: left;
+	color: #707070;
+	width: 180px;
+	overflow: hidden;
+}
+
+.offers .offer .scroller {
+	display: block;
+	overflow: hidden;
+	margin-left: 180px;
+}
+
+.offers .offer .items .item {
+	float: left;
+	padding: 7px;
+	height: 35px;
+	padding-left: 14px;
+	padding-right: 14px;
+	box-sizing: border-box;
+	border: 1px solid #D0D0D0;
+	color: #D0D0D0;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-right: 8px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.offers .offer .items .item.selected,
+.offers .offer .items .item:hover,
+.offers .offer .items .item:focus
+{
+	background: #fff;
+	color: #1A58D7;
+	border-color: #1A58D7;
+}
+
+.offers .offer .items .item.disabled {
+	border-color: #e2e2e2;
+	background: #eee;
+	color: #9c9c9c;
+}
+
+.offers .offer .items .item.hidden {
+	display: none;
+}
+
+.offers .offer.picture .items .item {
+	padding: 7px;
+}
+
+.offers .offer.picture .items .item .image {
+	height: 100%;
+	overflow: hidden;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.offers .offer.picture .items .item .image img {
+	height: 100%;
+	vertical-align: top;
+}
+
+/* Все характеристики */
+.item .item_description > .properties,
+.item > .properties {
+	position: relative;
+	color: #707070;
+}
+
+.item .item_description > .properties .property:before,
+.item > .properties .property:before {
+	content: '';
+	position: absolute;
+	display: block;
+	background: #1a58d7;
+	width: 3px;
+	height: 3px;
+	border-radius: 1.5px;
+	left: 0px;
+	top: 9px;
+}
+
+.item .item_description > .properties .property,
+.item > .properties .property {
+	position: relative;
+	/*float: left;*/
+	width: 70%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 13px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding-left: 10px;
+}
+
+.item .item_description > .properties .property .name,
+.item .item_description > .properties .property .value,
+.item > .properties .property .name,
+.item > .properties .property .value {
+	float: left;
+	width: 50%;
+	overflow: hidden;
+}
+
+/*Табличное SKU с меню*/
+.item.with-menu .prices,
+.item.with-menu .prices tbody,
+.item.with-menu .prices tr,
+.item.with-menu .prices td {
+	display: block;
+	height: auto;
+	width: auto !important;
+	text-align: center !important;
+	overflow: hidden;
+	border: none;
+}
+.item.with-menu .prices tr.header {
+	display: none;
+}
+.item.with-menu .prices tbody {
+	margin: -9px;
+}
+
+.item.with-menu .prices .sku-adaptiv-title {
+	display: inline;
+}
+
+.item.with-menu .prices tr {
+	padding: 9px;
+	float: left;
+	width: 25% !important;
+    height: 370px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.item.with-menu .prices td.price {
+    font-size: 28px;
+    color: #494949;
+}
+
+.item.with-menu .prices td > .buy,
+.item.with-menu .prices td > .buy .buy,
+.item.with-menu .prices td > .buy .one-click-buy {
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+.item.with-menu .prices td > div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.item .uni-tabs .tabs .bottom-line-up {
+	position: static;
+	left: 0px;
+	background: #f1f1f1;
+	height: 1px;
+	width: 100%;
+}
+/**Табличное SKU с меню**/
+
+@media all and (max-width: 1150px) {
+	.adaptiv .item .image-slider {
+		width: 300px;
+	}
+	
+	.adaptiv .item .information {
+		margin-left: 350px;
+	}
+	
+	.adaptiv .item .information .price {
+		float: none;
+	}
+	
+	.adaptiv .item .information .order {
+		margin-top: 20px;
+		float: none;
+	}
+	
+	.adaptiv .item .image-slider > .list .image {
+		width: 50%;
+		padding-top: 50%;
+	}
+}
+
+/*Документы*/
+.item .documents {
+	display: block;
+	overflow: hidden;
+}
+
+.item .documents .document {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.item .documents .document .image {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url("images/file.png");
+}
+
+.item .documents .document .information {
+	display: block;
+	margin-left: 55px;
+}
+
+.item .documents .document .information .name {
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 3px;
+	text-decoration: underline;
+}
+
+.item .documents .document .information .size {
+	font-size: 12px;
+	line-height: 16px;
+	color: #9d9d9d;
+	text-decoration: none;
+}
+/**Документы**/
+
+@media all and (max-width: 1080px) {
+	/*Адаптивность таблицы SKU*/
+	.adaptiv .item .prices,
+	.adaptiv .item .prices tbody,
+	.adaptiv .item .prices tr,
+	.adaptiv .item .prices td {
+		display: block;
+		height: auto;
+		width: auto !important;
+		text-align: center !important;
+		overflow: hidden;
+		border: none;
+	}
+	.adaptiv .item .prices tr.header {
+		display: none;
+	}
+	.adaptiv .item .prices tbody {
+		margin: -9px;
+	}
+	
+	.adaptiv .item .prices .sku-adaptiv-title {
+		display: inline;
+	}
+	
+	.adaptiv .item .prices tr {
+		padding: 9px;
+		float: left;
+		width: 25% !important;
+        height: 370px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+    
+    .adaptiv .item .prices td.price {
+        font-size: 28px;
+        color: #494949;
+    }
+    
+    .adaptiv .item .prices td > .buy,
+    .adaptiv .item .prices td > .buy .buy,
+    .adaptiv .item .prices td > .buy .one-click-buy {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+	
+	.adaptiv .item .prices td > div {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	/**Адаптивность таблицы SKU**/
+}
+
+@media all and (max-width: 950px) {
+	.adaptiv .item .image-slider {
+		width: 200px;
+	}
+	
+	.adaptiv .item .information {
+		margin-left: 250px;
+	}
+	
+	.adaptiv .item .prices tr,
+    .adaptiv .item.with-menu .prices tr {
+		width: 33.33% !important;
+	}
+}
+
+@media all and (max-width: 800px) {
+	.adaptiv .item .item_description > .properties .property,
+	.adaptiv .item > .properties .property {
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 750px) {
+	.adaptiv .item .image-slider {
+		float: none;
+		width: 400px;
+		margin: 0 auto;
+	}
+	
+	.adaptiv .item .information,
+    .adaptiv .item.with-menu .information,
+    .adaptiv .item.with-menu .information.with-menu {
+		margin-left: 0px;
+		padding-top: 20px;
+	}
+	
+	.adaptiv .item .information .order > .uni-indents-horizontal,
+	.adaptiv .item .information .order .buy-block > .uni-indents-horizontal {
+		display: none;
+	}
+	
+	.adaptiv .item .information .order .buy-block {
+		display: block;
+	}
+	
+	.adaptiv .item .information .order > .count,
+	.adaptiv .item .information .order > .buy,
+	.adaptiv .item .information .order > .min-buttons,
+	.adaptiv .item .information .order .buy-block > .count,
+	.adaptiv .item .information .order .buy-block > .buy,
+	.adaptiv .item .information .order .buy-block > .min-buttons	{
+		display: block;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+	
+	.adaptiv .item .offers {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	.adaptiv .item > .row {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.adaptiv .item .information .properties .property {
+		width: 100%;
+	}
+	
+	.adaptiv .item .information .price {
+		float: none;
+	}
+	
+	.adaptiv .item .information .order {
+		margin-top: 20px;
+		float: none;
+		height: auto;
+	}
+	
+	.adaptiv .item .image-slider > .list .image {
+		width: 25%;
+		padding-top: 25%;
+	}
+	
+	.adaptiv .item .prices tr,
+    .adaptiv .item.with-menu .prices tr {
+		width: 50% !important;
+	}
+	
+	.adaptiv .item .product-of-day {
+		padding: 5px;
+	}
+	.adaptiv .item .product-of-day .day {
+		display: block;
+		margin-left: 0;
+	}
+
+	.adaptiv .item .product-of-day > .title {
+		display: block;
+		margin-left: 0;
+	}
+
+	.adaptiv .item .product-of-day .timer {
+		display: block;
+		position: static;
+		margin: 0;
+		padding: 5px;
+		text-align: center;
+	}
+
+	.adaptiv .item .product-of-day .timer > .title {
+		margin: 0 2px 5px 0;
+	}
+}
+
+@media all and (max-width: 650px) {
+	.adaptiv .item .information .price {
+		float: none;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.adaptiv .item .prices tr,
+    .adaptiv .item.with-menu .prices tr {
+		width: 100% !important;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.adaptiv .item .image-slider {
+		float: none;
+		width: 100%;
+		margin: 0px;
+	}
+	
+	.adaptiv .item .image-slider > .list .image {
+		width: 50%;
+		padding-top: 50%;
+	}
+	
+	.adaptiv .item .information .article,
+	.adaptiv .item .information .state {
+		float: none;
+		margin: 0px;
+		padding-top: 10px;
+	}
+}
+
+.item .standart_block {
+    margin: 0px;
+}

@@ -1,0 +1,174 @@
+.catalog-section {
+	width:100%;	
+	display:block;
+}
+
+.catalog-section * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:  border-box;
+}
+
+.catalog-section .element {
+	position: relative;
+	width: 100%;
+	height: auto;
+	white-space: nowrap;
+	font-size: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.catalog-section .element + .element {
+    border-top: 1px solid #f0f0f0;
+}
+.catalog-section .element:hover + .element {
+    border-top: 1px solid transparent;
+}
+
+.catalog-section > .element:hover {
+    border-color: #f7f7f7;
+}
+
+.catalog-section .element .name {
+	display: inline-block;
+	vertical-align: middle;
+	width:40%;
+	overflow: hidden;
+	white-space: normal;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: left;
+}
+
+.catalog-section .element .name div {
+	margin-left: 35px;
+}
+
+.catalog-section .element .name div a {
+	text-decoration: none;
+}
+
+.catalog-section .element .buys {
+	display: inline-block;
+	width: 60%;
+    padding-right: 20px;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.catalog-section .element .buys .price {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.catalog-section .element .buys .min-buttons {
+    margin-left: 25px;
+    width: 58px;
+}
+
+.catalog-section .element .buys .price .new {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.catalog-section .element .buys .price .old {
+	font-size: 12px;
+	text-decoration: line-through;
+}
+
+.catalog-section .element .buys .min-buttons {
+    display: inline-block;
+	vertical-align: middle;  
+}
+
+.catalog-section .element .buys .min-buttons .like,
+.catalog-section .element .buys .min-buttons .compare {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.catalog-section .element .buys > .buy {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+.catalog-section .element .buys > .buy .buy {
+	color: #fff;
+	padding: 8px 11px 9px;
+	font-size: 13px;
+	line-height: 13px;
+	width: 90px;
+	text-align: center;
+}
+
+.catalog-section .element .state.unavailable {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 22px;
+	margin-right: 3px;
+	width: 90px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #797979;
+}
+
+@media all and (max-width: 800px) {
+	.adaptiv .catalog-section .element .name {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	
+	.adaptiv .catalog-section .element .name div {
+		margin-left: 0px;
+		font-size: 18px;
+	}
+	
+	.adaptiv .catalog-section .element .min-buttons {
+		width: auto;
+	}
+	
+	.adaptiv .catalog-section .element .buys {
+		display: block;
+		width: 100%;
+		text-align: center;
+        padding-right: 0px;
+	}
+}
+
+@media all and (max-width: 350px) {
+	.adaptiv .catalog-section .element .name {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	
+	.adaptiv .catalog-section .element .name div {
+		margin-left: 0px;
+		font-size: 18px;
+	}
+
+	.adaptiv .catalog-section .element .buys {
+		display: block;
+		width: 100%;
+		text-align: center;
+		white-space: normal;
+	}
+	
+	.adaptiv .catalog-section .element .buys > .buy {
+		display: block;
+		margin: 0 auto;
+		white-space: nowrap;
+		margin-top: 10px;
+	}
+}

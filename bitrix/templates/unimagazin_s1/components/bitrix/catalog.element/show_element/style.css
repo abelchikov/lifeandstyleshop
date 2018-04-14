@@ -1,0 +1,167 @@
+.product_element_pop {
+	width: 490px;
+	min-height: 280px;
+	padding: 15px 25px 0;
+   background:#fff;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-khtml-border-radius:6px;
+	position:relative;
+	font-size:14px;
+	padding-bottom:13px;
+}
+.product_element_pop .title {
+	font-size:21px;
+	color:#444648;
+	font-weight:bold;
+}
+.product_element_pop .left_col_product {
+	float: left;
+	width: 215px;
+	margin-left: 10px;
+	margin-top: 36px;	
+	min-height: 180px;
+	padding-bottom:10px;
+}
+.product_element_pop .left_col_product .name_product a {
+	color:#1060a5;
+	text-decoration:none;
+	font-size:14px;
+	line-height: 19px;
+	padding-right:10px;
+}
+.product_element_pop .left_col_product .name_product {
+	margin-bottom:5px;
+}
+.product_element_pop .left_col_product .img_product {
+	width:177px;
+	height:143px;
+	background-repeat:no-repeat;
+	background-size:contain;
+	position:relative;
+	background-position:center;
+}
+.product_element_pop .price_block {
+	margin-top:30px;
+}
+.product_element_pop  .new_price {
+	font-size:17px;
+	color:#444648;
+	font-weight:bold;
+}
+.product_element_pop  .old_price {
+	font-size:12px;
+	color:#444648;
+	text-decoration: line-through;
+}
+.product_element_pop .continue {
+	float:left;
+	color:#1363a8;
+	text-transform:uppercase;
+	text-align:center;
+	width:290px;
+	height:34px;
+	line-height:34px;
+	border-radius:5px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #d2d2d1;
+	border-left:1px solid #fff;
+	border-right:1px solid #d2d2d1;
+	cursor:pointer;
+	font-size:15px;
+}
+.product_element_pop .continue {
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 1%, #e0e0e0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f8f8f8), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 1%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 1%,#e0e0e0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 1%,#e0e0e0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8f8f8 1%,#e0e0e0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+}
+.product_element_pop .continue:hover {
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 1%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f8f8f8), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 1%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 1%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 1%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8f8f8 1%,#ededed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+.product_element_pop a.to_basket {
+	width:181px;
+	display:block;
+	float:right;
+	height:34px;
+	line-height:34px;
+	border-radius:5px;
+	font-size:15px;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:1px 1px 1px #0d504f;
+	border-top:1px solid #2785d0;
+	border-left:1px solid #2785d0;
+	border-bottom:1px solid #023e72;
+	border-right:1px solid #023e72;
+	text-align:center;
+	text-decoration:none;
+}
+.product_element_pop a.to_basket {
+	background: #2274b6; /* Old browsers */
+	background: -moz-linear-gradient(top, #2274b6 1%, #035198 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#2274b6), color-stop(100%,#035198)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #2274b6 1%,#035198 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #2274b6 1%,#035198 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #2274b6 1%,#035198 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #2274b6 1%,#035198 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2274b6', endColorstr='#035198',GradientType=0 ); /* IE6-9 */
+}
+.product_element_pop a.to_basket:hover {
+	background: #2274b6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2274b6 1%, #036aaf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#2274b6), color-stop(100%,#036aaf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2274b6 1%,#036aaf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2274b6 1%,#036aaf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2274b6 1%,#036aaf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2274b6 1%,#036aaf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2274b6', endColorstr='#036aaf',GradientType=0 ); /* IE6-9 */
+}
+.product_element_pop .right_col_product {
+	float: right;
+	width: 239px;
+	margin-top: 60px;
+}
+.product_element_pop .props {
+	font-size:12px;
+}
+.product_element_pop .left_prop {
+	float: left;
+	width: 151px;
+	border-bottom: 1px solid #ececec;
+	font-size: 12px;
+}
+.product_element_pop .left_prop span {
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	top: 1px;
+	padding-bottom: 1px;
+	position: relative;
+}
+.product_element_pop .left_value {
+	display:inline;
+	border-bottom: 1px solid #fff;
+	font-size:12px;
+}
+.product_element_pop .one_prop:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 6px;
+}
+.product_element_pop .buttons {
+	padding-bottom:15px;
+}

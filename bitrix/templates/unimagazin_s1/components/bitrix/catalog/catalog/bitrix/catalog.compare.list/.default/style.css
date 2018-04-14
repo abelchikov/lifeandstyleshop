@@ -1,0 +1,42 @@
+.compare_link {
+	margin-top:7px;
+}
+.compare_link .compare_button {
+	background: #83bf22;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;	
+	height: 28px;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 0 15px;
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	zoom: 1;
+	font-size: 9px;
+	height: 28px;
+	line-height: 28px;
+	border:0;
+}
+.compare_link .compare_button:hover {
+	opacity:0.9;
+}
+.compare_link a.link {
+	font-size:12px;
+	font-size: 11px;
+	color: black;
+	display: inline-block;
+	zoom: 1;
+	height: 19px;
+	text-decoration: none;
+	line-height: 25px;
+	margin-left: 8px;
+}
+.compare_link a.link span {
+	border-bottom: 1px dotted;
+}
+.compare_link a.link:hover {
+	color:#1363a8;
+}

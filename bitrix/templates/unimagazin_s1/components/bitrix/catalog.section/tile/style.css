@@ -1,0 +1,192 @@
+.catalog-section {
+	position: relative;
+	display:block;
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
+.catalog-section .uni_col {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.catalog-section .element {
+	padding-top: 10px;
+	background: #ffffff;
+	position: relative;
+	/*margin-bottom: 14px;*/
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #e8e8e8;
+}
+
+.catalog-section .element .image {
+	position: relative;
+	display: block;
+	height: auto;
+	margin: 0px;
+	vertical-align: top;
+	overflow: hidden;
+	text-align: center;
+	font-size: 0px;
+}
+
+.catalog-section .element .image .valign {
+	display: inline-block;
+	vertical-align: middle;
+	/*height: 100%;*/
+}
+
+.catalog-section .element .image img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.catalog-section .element .marks {
+	position: absolute;
+	display: block;
+	float: none;
+	z-index: 0;
+	font-size: 14px;
+	top: 20px;
+	left: 25px;
+	z-index: 1;
+}
+
+.catalog-section .element .min-buttons {
+	display: block;
+	position: absolute;
+    top: 20px;
+    right: 12px;
+    margin: -8px 0px;
+	z-index: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	transition: 0.5s;
+}
+.catalog-section .element:hover .min-buttons {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+
+.catalog-section .element  .min-buttons .min-button{
+	display: block;
+	cursor: pointer;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.catalog-section .element  .image-wrapper {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding-top: 100%;
+}
+
+.catalog-section .element .image .image-wrapper .image-wrapper-wrapper {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0px 0px;
+	top: 0px;
+	left: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.catalog-section .element .information {
+	overflow: hidden;
+	margin: 0 auto;
+	line-height: 18px;
+	margin: 12px 12px 0 12px;
+}
+.catalog-section .element .information .brand {
+	display: block;
+	font-size: 11px;
+	line-height: 9px;
+	height: 12px;
+	overflow: hidden;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.catalog-section .element .information .name {
+	display: block;
+	font-size: 16px;
+	color: #363532;
+	line-height: 16px;
+	text-decoration: none;
+	height: 32px;
+}
+.catalog-section .element .information .name:hover {
+	color: #888b92;
+}
+
+.catalog-section .element .buys {
+	position: relative;
+	right: 0px;
+	text-align: left;
+	white-space: nowrap;
+	margin: 12px 12px 0 12px;
+//border-top: 1px solid #e8e8e8;
+}
+
+.catalog-section .element .buys .price {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	text-align: left;
+	margin-top: 15px;
+	white-space: nowrap;
+	height: 36px;
+//line-height: 36px;
+}
+
+.catalog-section .element .buys .price .new {
+	display: inline-block;
+	font-size: 17px;
+	line-height: normal;
+	color: #3b3b43;
+}
+
+.catalog-section .element .buys .price .old {
+	display: block;
+	font-size: 12px;
+	line-height: normal;
+	right: 0px;
+	color: #FF0000;
+	text-decoration: line-through;
+}
+
+.catalog-section .element .buys > .buy {
+	position: absolute;
+	display: block;
+	right: 0px;
+	top: 0;
+//margin-top: 10px;
+}
+
+.catalog-section .element .buys > .buy .buy {
+	padding: 8px 11px 9px;
+	font-size: 13px;
+	line-height: 13px;
+	color: #fff;
+}
+
+.catalog-section .element .state.unavailable {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin-top: 19px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #797979;
+}

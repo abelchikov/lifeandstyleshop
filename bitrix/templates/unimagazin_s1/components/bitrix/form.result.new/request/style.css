@@ -1,0 +1,172 @@
+.form_feedback_under1{
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:30px;
+}
+.form_feedback1 {
+	
+}
+.form_feedback1 .header_grey {
+	margin-bottom: 18px
+}
+.form_feedback1_under1 {
+	padding: 39px 15px 10px;
+	font-size: 14px;
+}
+
+.form_feedback1 .header_grey {
+	font-size: 21px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	color: #1d1d1d;
+	font-weight: bold;
+	margin-top: -30px;
+}
+.form_feedback1 .controls label{
+	font-size: 14px;
+	color: #1d1d1d;
+	line-height: 24px;
+	text-align:left !important;
+}
+.inputtext{
+	border:1px solid #e9e9e9 !important;
+	background:white !important;
+	border-radius:0px !important;
+}
+.form_feedback1 .controls .input input,.form_feedback1 .controls .input textarea,.form_feedback1 .controls .captcha_form .input input{
+	width: 100%;	
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 10px!important;	
+	height: 38px;
+	border: none;
+	border-radius: 6px;
+	background: #e9e9e9;
+	box-shadow: none;
+	font-weight: normal;
+	font-size: 14px;
+	float:none;
+}
+.form_feedback1 .controls .input input.nofill,
+.form_feedback1 .controls .input textarea.nofill,
+.form_feedback1 .controls .captcha_form .input input.nofill{
+	border:1px solid red;
+}
+
+.form_feedback1 .controls .input textarea{
+	height: 135px;
+}
+.form_feedback1 .control .starrequired{
+	color:#940939;
+}
+.form_feedback1 .controls {
+	/*margin-top: 16px;*/
+	width:21%;
+	display:inline-block;
+	margin-right:25px;
+	vertical-align:top;
+	text-align:left;
+}
+.form_feedback1 .controls .captcha_form .input img {
+	width:100%;
+	max-height: 50px;
+	display: inline-block;
+	vertical-align: middle;	
+	text-align:right;
+	margin-top: 5px;
+}
+.form_feedback1 .controls .input input.inputfile {
+	border:0;
+	box-shadow:none;
+}
+.form_feedback1 .buttons {
+	/*margin-top:44px;*/
+	display:inline-block;
+	width:23% !important;
+	text-align:left;
+	vertical-align:top;
+}
+.form_feedback1 .solid_button {
+	display: block;	
+	height: 38px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 36px;
+	border-radius: 6px;	
+	border:0;
+	/*float:right;*/
+	width: 100%;
+	text-align:center;
+}
+
+.form_feedback1 .close_button {
+	height: 36px;
+	border-radius: 6px;
+	float:left;
+	line-height:36px;
+	width: 45%;
+	text-align:center;
+}
+.form_feedback1 .errors {
+	color:red;
+	font-size:12px;
+}
+.form_feedback1 .text {
+	font-size:11px;
+	margin-top:5px;
+}
+
+/*соглашение*/
+.consent {
+	
+	display:block;
+}
+.consent a {
+	text-decoration: none;
+}
+.consent label {
+	font-size: 11px;
+	color: #585858;
+	cursor: pointer;
+}.consent label:hover {color: #8e8e8e;}
+.consent label, .consent input {
+	display: inline-block;
+	vertical-align: middle;
+}
+@media all and (max-width: 550px)
+{
+    .form_feedback1 .controls{
+		display:block;
+		width:70%;
+	}
+	.form_feedback1 .buttons{
+		display:block;
+		width:72% !important;
+	}
+	.form_feedback1 .controls{
+		margin-top:0px;
+		margin:0 auto;
+	}
+	.form_feedback1 .buttons{
+		margin-top:10px;
+		margin: auto;
+	}
+	.controls{
+		margin-bottom:10px !important;
+	}
+	.form_feedback1_under1{
+		border:1px solid #eaeaea;
+		margin-bottom:15px;
+		margin-left:4%;
+		margin-right:4%;
+		width:92%;
+	}
+	.form_feedback1 .header_grey{
+		text-align:center;
+	}
+	.form_feedback1 .header_grey{
+		margin-bottom:5px;
+	}
+}

@@ -1,0 +1,62 @@
+.catalog-sections-list.list {
+	position: relative;
+	display: block;
+	background: transparent;
+	white-space: nowrap;
+}
+
+.catalog-sections-list.list .element {
+	display: block;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.catalog-sections-list.list .element .content {
+	display: block;
+	text-decoration: inherit;	
+	overflow: hidden;
+    height: 135px;
+}
+
+.catalog-sections-list.list .element .content a {
+	display: block;
+	text-decoration: none;
+}
+
+.catalog-sections-list.list .element .content .text .name {
+	display: block;
+	text-decoration: underline;
+	overflow: hidden;
+	font-size: 18px;
+	line-height: 24px;
+    max-height: 48px;
+	margin-bottom: 10px;
+	white-space: normal;
+    color: #292929;
+}
+
+.catalog-sections-list.list .element .content .text .description {
+	display: block;
+	text-decoration: inherit;
+	white-space: normal;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+	height: 64px;
+	color: #000;
+}
+
+.catalog-sections-list.list .element .content .text .subsections {
+    display: block;
+    overflow: hidden;
+    height: 72px;
+}
+
+.catalog-sections-list.list .element .content .text .subsections .subsection {
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 18px;
+    height: 18px;
+    color: #292929;
+}

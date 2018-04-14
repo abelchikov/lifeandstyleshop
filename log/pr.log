@@ -1,0 +1,93 @@
+ALL_PROPS_IBLOCK_28/ALL_PROPS_IBLOCK_28/Array
+(
+    [CML2_BAR_CODE] => Array
+        (
+            [ID] => 179
+            [NAME] => ШтрихКод
+            [CODE] => CML2_BAR_CODE
+            [PROPERTY_TYPE] => S
+            [LIST_TYPE] => L
+        )
+
+    [CML2_ARTICLE] => Array
+        (
+            [ID] => 180
+            [NAME] => Артикул
+            [CODE] => CML2_ARTICLE
+            [PROPERTY_TYPE] => S
+            [LIST_TYPE] => L
+        )
+
+    [CML2_ATTRIBUTES] => Array
+        (
+            [ID] => 181
+            [NAME] => Характеристики
+            [CODE] => CML2_ATTRIBUTES
+            [PROPERTY_TYPE] => S
+            [LIST_TYPE] => L
+        )
+
+    [CML2_TRAITS] => Array
+        (
+            [ID] => 182
+            [NAME] => Реквизиты
+            [CODE] => CML2_TRAITS
+            [PROPERTY_TYPE] => S
+            [LIST_TYPE] => L
+        )
+
+    [CML2_BASE_UNIT] => Array
+        (
+            [ID] => 183
+            [NAME] => Базовая единица
+            [CODE] => CML2_BASE_UNIT
+            [PROPERTY_TYPE] => S
+            [LIST_TYPE] => L
+        )
+
+    [CML2_TAXES] => Array
+        (
+            [ID] => 184
+            [NAME] => Ставки налогов
+            [CODE] => CML2_TAXES
+            [PROPERTY_TYPE] => S
+            [LIST_TYPE] => L
+        )
+
+    [MORE_PHOTO] => Array
+        (
+            [ID] => 185
+            [NAME] => Картинки
+            [CODE] => MORE_PHOTO
+            [PROPERTY_TYPE] => F
+            [LIST_TYPE] => L
+        )
+
+    [FILES] => Array
+        (
+            [ID] => 186
+            [NAME] => Файлы
+            [CODE] => FILES
+            [PROPERTY_TYPE] => F
+            [LIST_TYPE] => L
+        )
+
+    [CML2_MANUFACTURER] => Array
+        (
+            [ID] => 187
+            [NAME] => Производитель
+            [CODE] => CML2_MANUFACTURER
+            [PROPERTY_TYPE] => L
+            [LIST_TYPE] => L
+        )
+
+    [CML2_LINK] => Array
+        (
+            [ID] => 188
+            [NAME] => Элемент каталога
+            [CODE] => CML2_LINK
+            [PROPERTY_TYPE] => E
+            [LIST_TYPE] => L
+        )
+
+)

@@ -1,0 +1,141 @@
+.ocb-form {	
+	width:522px;
+	height:363px;
+	padding:20px 30px 30px 28px;
+	font-family:Arial,sans-serif;
+	overflow:hidden;	
+}
+.ocb-form .title {
+	font-size:25px;
+	color:#2e2e2e;
+	font-family:'Babas',Arial,sans-serif;
+}
+.ocb-form .comment {
+	color:#7c7c7c;
+	font-size:11px;
+}
+.ocb-form .ocb-form-wrap {
+	overflow:hidden;
+}
+.ocb-form .ocb-form-wrap .price_image {
+	float:left;
+	width:35%;
+	margin-top:25px;	
+}
+.ocb-form .ocb-form-wrap .price_image .image {
+	width:152px;
+	height:218px;
+	margin: 0 auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+.ocb-form .ocb-form-wrap .price_image .name_product {
+	font-size: 12px;
+	width: 152px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.ocb-form .ocb-form-wrap .price_image .price {
+	width:152px;
+	font-family:'Babas',Arial,sans-serif;
+}
+.ocb-form .ocb-form-wrap .price_image .price span.new_price {
+	font-size:17px;
+	color:#434343;
+}
+.ocb-form .ocb-form-wrap .price_image .price span.old_price {
+	color:#a77600;
+	font-size:14px;
+	padding-left:17px;
+	text-decoration:line-through;
+}
+.ocb-form .ocb-form-wrap #ocb-params {
+	float:right;
+	width:50%;
+}
+.ocb-form .ocb-form-wrap #ocb-params input[type="text"], .ocb-form .ocb-form-wrap #ocb-params textarea {
+	width:249px;
+	border-radius:1px;
+	border:1px solid #d9d9d9;
+	box-shadow:1px 1px 2px #f0f0f0 inset;
+	height:27px;
+	padding:0 5px;
+}
+.ocb-form .ocb-form-wrap #ocb-params textarea {
+	padding:5px;
+	height:90px;
+}
+.ocb-form .ocb-form-wrap #ocb-params .ocb-form-field label {
+	font-size:14px;
+	line-height: 25px
+}
+.ocb-form .ocb-form-wrap #ocb-params .ocb-form-field {
+	margin-bottom:15px;
+}
+.ocb-form .ocb-form-wrap #ocb-params button.button {
+	background: #b5212c;
+	color: #fff;
+	height: 41px;
+	border-top: 1px solid #d47f85;
+	border-bottom: 1px solid #a11d27;
+	border-left: 1px solid #c55059;
+	border-right: 1px solid #a81f29;
+	text-shadow: 0 1px 0 #931b24;
+	border-radius: 2px;
+	text-align: center;
+	width: 170px;
+	font-size: 18px;
+	font-family: 'Babas',Arial,sans-serif;
+	text-shadow: 1px 1px 1px #851820;
+	text-transform: uppercase;
+	font-weight: normal;
+	height: 41px;
+	line-height: 39px;
+	text-align: center;
+	cursor:pointer;
+}
+.ocb-form .ocb-form-wrap #ocb-params button.button:hover {
+	background: #c32530;
+}
+.ocb-form .ocb-form-wrap .promt {
+	display:inline-block;
+	width:36px;
+	font-size:11px;
+	width: 81px;
+	color:#575757;
+	text-align:right;
+	position:absolute;
+	padding-left: 9px;
+	padding-top: 5px;
+	top: 0;
+	right: 5px;
+}
+.ocb-modules-button {
+	position:relative;
+}
+.ocb-form .starrequired {
+	color:#ff0000;
+}
+.ocb-form .ocb-form-wrap #ocb-params input[type="text"].nofill {
+	border:1px solid #f10000;
+}
+.requared {
+	display:none;
+	font-size:11px;
+	color:#f10000;
+	position:absolute;
+}
+.ocb-form-result {
+	float:right;
+	width:50%;
+	font-size:13px;
+}
+.ocb-result-icon-fail {
+	color:red;
+	position: absolute;
+	top: 36px;
+}
+.ocb-result-text {
+	margin-top: 18px;
+}
